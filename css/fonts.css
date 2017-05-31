@@ -1,0 +1,15 @@
+/* Webfont: Bariol Regular */@font-face {
+    font-family: 'PF Agora Sans Pro Light';
+    src: url('../fonts/Bariol_Regular.otf') format('otf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Bariol Regular */@font-face {
+    font-family: 'PF Agora Sans Pro Light';
+    src: url('../fonts/Bariol_Regular_Italic.otf') format('otf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
