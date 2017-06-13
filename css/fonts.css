@@ -1,14 +1,14 @@
 /* Webfont: Bariol Regular */@font-face {
-    font-family: 'PF Agora Sans Pro Light';
-    src: url('../fonts/Bariol_Regular.otf') format('otf');
+    font-family: 'Bariol Regular';
+    src: url('../fonts/Bariol_Regular.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
 
-/* Webfont: Bariol Regular */@font-face {
-    font-family: 'PF Agora Sans Pro Light';
-    src: url('../fonts/Bariol_Regular_Italic.otf') format('otf');
+/* Webfont: Bariol Regular Italic */@font-face {
+    font-family: 'Bariol Regular Italic';
+    src: url('../fonts/Bariol_Regular_Italic.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
