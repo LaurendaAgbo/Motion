@@ -1,11 +1,135 @@
 /*****     MAIN     STYLE       *****/
 
 
+body {
+	font-family: "Bariol Regular";
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+.row {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
 /*****     FIN    MAIN     STYLE       *****/
 
 /***** DEBUT HEADER   ****/
 
 
+#header{
+	background-color: #eb4f4e;
+	width: 100%;
+	color: #fff;
+	height: 100%;
+}
+
+#menu {
+	background: url(images/menuBackground2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+}
+#menu .navbar {
+	width: 100%;
+}
+
+#logo {
+	width: 26%;
+}
+
+#logo a span {
+	font-size: 35px;
+	font-style: normal;
+	text-shadow: 0px 1px 0px #c34b2a;
+	color: #fff;
+}
+
+#logo a p {
+	font-size: 16px;
+	margin-top: -1.5rem;
+	color: #fff;
+}
+
+#navigation a {
+	font-family: "Arial";
+	font-size: 16px;
+    font-weight: bold;
+	color: #fff;
+    padding: 0.25rem 0.75rem;
+}
+
+#menu .navbar-light #navigation .navbar-nav .active > .nav-link, 
+#menu #navigation a:hover, #navigation a:focus {
+	background-color: #000;
+	border-radius: 0.3rem;
+}
+
+#headerText {
+    min-height: 690px;
+    padding: 380px 0 0;
+	color: #fff;
+	text-shadow: 0px 1px 0px #c34b2a;
+}
+
+#slidetext1 {
+	font-size: 28px;
+}
+
+#slidetext2 {
+	font-size: 14px;
+}
+.carousel-control-next {
+    left: 97%;
+}
+
+.carousel-control-prev {
+    left: -1%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    width: 4%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 30px;
+    height: 30px;
+	background: none;
+	font-family: 'fontawesome';
+	font-size: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+}
+
+.carousel-control-next-icon:before {
+    content: "\f105";
+}
+
+.carousel-control-prev-icon:before {
+    content: "\f104";
+}
+
+@media screen and (min-width: 578px) {
+	#slidetext1 {
+		font-size: 60px;
+		letter-spacing: 5px;
+	}
+
+	#slidetext2 {
+		font-size: 20px;
+	}
+}
 
 /****	FIN  HEADER   ****/
 
