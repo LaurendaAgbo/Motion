@@ -139,7 +139,6 @@ ul {
 	background-color: #232324;
 	padding-top: 2rem;
 	padding-bottom: 1rem;
-	font-size: 18px;
 	color: #fff;
 }
 
@@ -188,7 +187,57 @@ ul {
 
 /***** DEBUT TEAM   ****/
 
+#team {
+	background-color: #6cc372;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	color: #fff;
+}
 
+#teamTitle h3 {
+	font-size: 40px;
+	font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#teamTitle p {
+	font-size: 20px;
+	color: #232324;
+    letter-spacing: 0.05rem;
+}
+
+.teamBlocks {
+	background-color: #fff;
+	border-radius: 0.5rem;
+}
+
+.teamMemberName {
+	color: #61af66;
+	font-size: 25px;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+.teamMemberFonction {
+	color: #e74c3c;
+	font-size: 18px;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+.follow, .follow:hover {
+	font-family: "Bariol Regular";
+	font-size: 25px;
+	background-color: #6cc372;
+	border: none;
+	width: 90%;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.teamBlocks img {
+		max-width: 130px;
+		width: 100%;
+	}
+}
 
 /****	FIN  TEAM   ****/
 
