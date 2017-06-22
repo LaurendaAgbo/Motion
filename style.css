@@ -135,7 +135,54 @@ ul {
 
 /***** DEBUT MERITS   ****/
 
+#merits {
+	background-color: #232324;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	font-size: 18px;
+	color: #fff;
+}
 
+#meritsTitle h3 {
+	font-size: 23px;
+	font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#meritsTitle p {
+	font-size: 12px;
+	color: #d94948;
+    letter-spacing: 0.05rem;
+}
+
+.meritsBlocksTitle {
+	font-size: 20px;
+}
+
+.meritsBlocksDescription {
+	font-size: 14px;
+	color: #e74c3c;
+	line-height: 1.3rem;
+}
+
+@media screen and (min-width: 578px) {
+	#meritsTitle h3 {
+		font-size: 40px;
+	}
+
+	#meritsTitle p {
+		font-size: 20px;
+	}
+	
+	.meritsBlocksTitle {
+		font-size: 30px;
+	}
+	
+	.meritsBlocksDescription {
+		font-size: 18px;
+		padding: 0 1rem;
+	}
+}
 
 /****	FIN  MERITS   ****/
 
