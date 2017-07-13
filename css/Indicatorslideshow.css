@@ -29,7 +29,8 @@
     position: relative;
     left: 0;
     text-align: center;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 
 
