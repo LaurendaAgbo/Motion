@@ -87,20 +87,21 @@ ul {
 #slidetext2 {
 	font-size: 14px;
 }
-.carousel-control-next {
+
+#header .carousel-control-next {
     left: 97%;
 }
 
-.carousel-control-prev {
+#header .carousel-control-prev {
     left: -1%;
 }
 
-.carousel-control-prev, .carousel-control-next {
+#header .carousel-control-prev, #header .carousel-control-next {
     position: absolute;
     width: 4%;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+#header .carousel-control-next-icon, #header .carousel-control-prev-icon {
 	width: 30px;
     height: 30px;
 	background: none;
@@ -112,11 +113,11 @@ ul {
     line-height: 1;
 }
 
-.carousel-control-next-icon:before {
+#header .carousel-control-next-icon:before {
     content: "\f105";
 }
 
-.carousel-control-prev-icon:before {
+#header .carousel-control-prev-icon:before {
     content: "\f104";
 }
 
@@ -194,13 +195,13 @@ ul {
 	color: #fff;
 }
 
-#teamTitle h3 {
+#teamTitle h3, #portfolioTitle h3, .pricingPlansTitle h3 {
 	font-size: 40px;
 	font-weight: bold;
     letter-spacing: 5px;
 }
 
-#teamTitle p {
+#teamTitle p, #portfolioTitle p, .pricingPlansTitle p {
 	font-size: 20px;
 	color: #232324;
     letter-spacing: 0.05rem;
@@ -243,7 +244,65 @@ ul {
 
 /***** DEBUT PORTFOLIO   ****/
 
+#portfolio {
+	background-color: #f0f0f0;
+	padding-top: 2rem;
+	padding-bottom: 12rem;
+	color: #000;
+}
 
+#portfolioTitle h3 {
+	color: #616161;
+}
+
+#portfolioTitle p {
+	color: #61af66;
+}
+
+.portfolioSubtitle {
+	font-size: 21px;
+	color: #232324;
+}
+
+#portfolio .carousel-control-next {
+    left: 101%;
+}
+
+#portfolio .carousel-control-prev {
+    left: -5%;
+}
+
+#portfolio .carousel-control-prev, #portfolio .carousel-control-next {
+    position: absolute;
+    width: 3%;
+}
+
+#portfolio .carousel-control-next-icon, #portfolio .carousel-control-prev-icon {
+	width: 30px;
+    height: 30px;
+	background: none;
+	color: #6cc372;
+	font-family: 'fontawesome';
+	font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+}
+
+#portfolio .carousel-control-next-icon:before {
+    content: "\f105";
+}
+
+#portfolio .carousel-control-prev-icon:before {
+    content: "\f104";
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	#portfolio {
+		padding-bottom: 14.5rem;
+	}
+}
 
 /****	FIN  PORTFOLIO   ****/
 
