@@ -308,7 +308,252 @@ ul {
 
 /***** DEBUT PRICING   ****/
 
+#pricing {
+	border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+#pricingPlans {
+	width: 93%;
+	margin: 0 auto;
+}
 
+#pricingPlans .list-group-item {
+	border-left: 0;
+    border-right: 0;
+}
+
+#pricingPlans .list-group-item:first-child {
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+	border-top: 0;
+}
+
+#pricingPlan1, #pricingPlan2, #pricingPlan3 {
+	box-shadow: 1px 0 1px rgba(0, 0, 0, 0.06);
+}
+
+#pricingPlan1 {
+    margin-top: -134px;
+}
+
+#pricingPlan3, #pricingPlan2 {
+    margin-top: 10px;
+}
+
+.pricingPlansTitle h3 {
+	font-size: 30px;
+	color: #616161;
+    font-weight: normal;
+	word-break: break-word;
+}
+
+.pricingPlansTitle p {
+	color: #eb4f4e;
+	font-size: 18px;
+}
+
+#pricingPlan2 .pricingPlansTitle h3 {
+	color: #eb4f4e;
+}
+
+#pricingPlan2 .pricingPlansTitle p {
+	color: #232324;
+}
+
+.pricingPlanInfos {
+	background-color: #f0f0f0;
+	font-size: 18px;
+	color: #616161;
+    letter-spacing: 0.05rem;
+}
+
+#pricingPlans .pricingPlansFoot {
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+	border-bottom: 0;
+	border-top: 1px solid #fff;
+	padding: 0 1rem;
+	background-color: #616161;
+	color: #fff;
+}
+
+.pricingPlansFoot .dollar {
+	font-family: "Myriad Pro Semibold";
+    font-size: 32.12px;
+}
+
+.pricingPlansFoot .number {
+	font-family: "Myriad Pro";
+    font-size: 64.23px;
+    font-weight: bold;
+}
+
+.pricingPlansFoot p {
+	font-family: "Myriad Pro Regular";
+    font-size: 24.98px;
+}
+
+.pricingPlansFoot .badge-pill {
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    font-size: 21px;
+    letter-spacing: 0.06rem;
+}
+
+#wheel {
+	position: absolute;
+    color: #eb4f4e;
+    top: 90%;
+    z-index: 9;
+    width: 80%;
+
+}
+
+#pricingPlans #pricingPlan2 .pricingPlansFoot {
+	background-color: #eb4f4e;
+}
+
+#pricingPlans #pricingPlan2 .badge-pill a {
+	color: #eb4f4e;
+}
+
+.more, .more a {
+	color: #eb4f4e;
+	font-size: 20px;
+	padding: 1.5rem 0;
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	#pricingPlan1, #pricingPlan3 {
+		margin-top: -133px;
+	}
+	
+	#pricingPlan2 {
+		margin-top: -205px;
+	}
+
+	.pricingPlansTitle p {
+		font-size: 16px;
+	}
+	
+	.pricingPlanInfos {
+		font-size: 14px;
+	}
+	
+	#wheel {
+		top: 92%;
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 991px) {
+	.pricingPlansTitle h3, #pricingPlan2 .pricingPlansTitle h3 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.pricingPlansFoot p {
+		font-size: 16.98px;
+	}
+	
+	.pricingPlansFoot .dollar {
+		font-size: 22.12px;
+	}
+	
+	.pricingPlansFoot .number {
+		font-size: 44.23px;
+	}
+	
+	.pricingPlansFoot .badge-pill {
+		padding-right: .5em;
+		padding-left: .5em;
+		font-size: 16px;
+	}
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#pricingPlan1, #pricingPlan3 {
+		margin-top: -84px;
+	}
+	
+	#pricingPlan2 {
+		margin-top: -105px;
+	}
+
+	.pricingPlansTitle h3, #pricingPlan2 .pricingPlansTitle h3 {
+		word-break: normal;
+	}
+	
+	.pricingPlansTitle p {
+		font-size: 14px;
+	}
+	
+	#wheel {
+		top: 86%;
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	#pricingPlan1, #pricingPlan3 {
+		margin-top: -105px;
+	}
+	
+	#pricingPlan2 {
+		margin-top: -132px;
+	}
+
+	.pricingPlansTitle h3 {
+		font-size: 34px;
+	}
+	
+	.pricingPlansFoot .dollar {
+		font-size: 30.12px;
+	}
+	
+	.pricingPlansFoot .number {
+		font-size: 58.23px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.pricingPlansTitle h3 {
+		word-break: normal;
+	}
+	
+	#wheel {
+		top: 89%;
+		width: 88%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#pricingPlan1, #pricingPlan3 {
+		margin-top: -115px;
+	}
+	
+	#pricingPlan2 {
+		margin-top: -145px;
+	}
+
+	.pricingPlansTitle h3 {
+		font-size: 40px;
+	}
+	
+	.pricingPlansTitle p {
+		font-size: 20px;
+	}
+	
+	.pricingPlansFoot .dollar {
+		font-size: 32.12px;
+	}
+	
+	.pricingPlansFoot .number {
+		font-size: 64.23px;
+	}
+}
 
 /****	FIN  PRICING   ****/
 
