@@ -121,17 +121,6 @@ ul {
     content: "\f104";
 }
 
-@media screen and (min-width: 578px) {
-	#slidetext1 {
-		font-size: 60px;
-		letter-spacing: 5px;
-	}
-
-	#slidetext2 {
-		font-size: 20px;
-	}
-}
-
 /****	FIN  HEADER   ****/
 
 /***** DEBUT MERITS   ****/
@@ -163,25 +152,6 @@ ul {
 	font-size: 14px;
 	color: #e74c3c;
 	line-height: 1.3rem;
-}
-
-@media screen and (min-width: 578px) {
-	#meritsTitle h3 {
-		font-size: 40px;
-	}
-
-	#meritsTitle p {
-		font-size: 20px;
-	}
-	
-	.meritsBlocksTitle {
-		font-size: 30px;
-	}
-	
-	.meritsBlocksDescription {
-		font-size: 18px;
-		padding: 0 1rem;
-	}
 }
 
 /****	FIN  MERITS   ****/
@@ -231,13 +201,6 @@ ul {
 	border: none;
 	width: 90%;
     letter-spacing: 2px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.teamBlocks img {
-		max-width: 130px;
-		width: 100%;
-	}
 }
 
 /****	FIN  TEAM   ****/
@@ -297,12 +260,6 @@ ul {
 
 #portfolio .carousel-control-prev-icon:before {
     content: "\f104";
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	#portfolio {
-		padding-bottom: 14.5rem;
-	}
 }
 
 /****	FIN  PORTFOLIO   ****/
@@ -425,137 +382,6 @@ ul {
 	padding: 1.5rem 0;
 }
 
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	#pricingPlan1, #pricingPlan3 {
-		margin-top: -133px;
-	}
-	
-	#pricingPlan2 {
-		margin-top: -205px;
-	}
-
-	.pricingPlansTitle p {
-		font-size: 16px;
-	}
-	
-	.pricingPlanInfos {
-		font-size: 14px;
-	}
-	
-	#wheel {
-		top: 92%;
-		width: 70%;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 991px) {
-	.pricingPlansTitle h3, #pricingPlan2 .pricingPlansTitle h3 {
-		font-size: 20px;
-		font-weight: bold;
-	}
-	
-	.pricingPlansFoot p {
-		font-size: 16.98px;
-	}
-	
-	.pricingPlansFoot .dollar {
-		font-size: 22.12px;
-	}
-	
-	.pricingPlansFoot .number {
-		font-size: 44.23px;
-	}
-	
-	.pricingPlansFoot .badge-pill {
-		padding-right: .5em;
-		padding-left: .5em;
-		font-size: 16px;
-	}
-	
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	#pricingPlan1, #pricingPlan3 {
-		margin-top: -84px;
-	}
-	
-	#pricingPlan2 {
-		margin-top: -105px;
-	}
-
-	.pricingPlansTitle h3, #pricingPlan2 .pricingPlansTitle h3 {
-		word-break: normal;
-	}
-	
-	.pricingPlansTitle p {
-		font-size: 14px;
-	}
-	
-	#wheel {
-		top: 86%;
-		width: 80%;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-	#pricingPlan1, #pricingPlan3 {
-		margin-top: -105px;
-	}
-	
-	#pricingPlan2 {
-		margin-top: -132px;
-	}
-
-	.pricingPlansTitle h3 {
-		font-size: 34px;
-	}
-	
-	.pricingPlansFoot .dollar {
-		font-size: 30.12px;
-	}
-	
-	.pricingPlansFoot .number {
-		font-size: 58.23px;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	.pricingPlansTitle h3 {
-		word-break: normal;
-	}
-	
-	#wheel {
-		top: 89%;
-		width: 88%;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	#pricingPlan1, #pricingPlan3 {
-		margin-top: -115px;
-	}
-	
-	#pricingPlan2 {
-		margin-top: -145px;
-	}
-
-	.pricingPlansTitle h3 {
-		font-size: 40px;
-	}
-	
-	.pricingPlansTitle p {
-		font-size: 20px;
-	}
-	
-	.pricingPlansFoot .dollar {
-		font-size: 32.12px;
-	}
-	
-	.pricingPlansFoot .number {
-		font-size: 64.23px;
-	}
-}
-
 /****	FIN  PRICING   ****/
 
 /***** DEBUT TWEETS   ****/
@@ -669,7 +495,7 @@ ul {
 }
 
 #contactPopover .popover.popover-top, #contactPopover .popover.bs-tether-element-attached-bottom {
-    margin-top: 2px;
+    margin-top: -50px;
 }
 
 #contactPopover .popover {
@@ -705,7 +531,36 @@ ul {
     border-top-color: rgba(35, 35, 36, 0.9);
 }
 
+/****	FIN  FOOTER   ****/
+
+/****   DEBUT MEDIA QUERIES    ****/
+
 @media screen and (min-width: 578px) and (max-width: 767px) {
+	#portfolio {
+		padding-bottom: 14.5rem;
+	}
+	
+	#pricingPlan1, #pricingPlan3 {
+		margin-top: -133px;
+	}
+	
+	#pricingPlan2 {
+		margin-top: -205px;
+	}
+
+	.pricingPlansTitle p {
+		font-size: 16px;
+	}
+	
+	.pricingPlanInfos {
+		font-size: 14px;
+	}
+	
+	#wheel {
+		top: 92%;
+		width: 70%;
+	}
+	
 	#contactPopover .popover.popover-top, #contactPopover .popover.bs-tether-element-attached-bottom {
 		margin-top: 30px;
 	}
@@ -722,6 +577,84 @@ ul {
 	
 	#contactPopover .popover .popover-content {
 		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 991px) {
+	.pricingPlansTitle h3, #pricingPlan2 .pricingPlansTitle h3 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.pricingPlansFoot p {
+		font-size: 16.98px;
+	}
+	
+	.pricingPlansFoot .dollar {
+		font-size: 22.12px;
+	}
+	
+	.pricingPlansFoot .number {
+		font-size: 44.23px;
+	}
+	
+	.pricingPlansFoot .badge-pill {
+		padding-right: .5em;
+		padding-left: .5em;
+		font-size: 16px;
+	}
+	
+}
+
+@media screen and (min-width: 578px) {
+	#slidetext1 {
+		font-size: 60px;
+		letter-spacing: 5px;
+	}
+
+	#slidetext2, #meritsTitle p {
+		font-size: 20px;
+	}
+	
+	#meritsTitle h3 {
+		font-size: 40px;
+	}
+	
+	.meritsBlocksTitle {
+		font-size: 30px;
+	}
+	
+	.meritsBlocksDescription {
+		font-size: 18px;
+		padding: 0 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.teamBlocks img {
+		max-width: 130px;
+		width: 100%;
+	}
+	
+	#pricingPlan1, #pricingPlan3 {
+		margin-top: -84px;
+	}
+	
+	#pricingPlan2 {
+		margin-top: -105px;
+	}
+
+	.pricingPlansTitle h3, #pricingPlan2 .pricingPlansTitle h3 {
+		word-break: normal;
+	}
+	
+	.pricingPlansTitle p {
+		font-size: 14px;
+	}
+	
+	#wheel {
+		top: 86%;
+		width: 80%;
 	}
 }
 
@@ -745,4 +678,63 @@ ul {
 	}
 }
 
-/****	FIN  FOOTER   ****/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	#pricingPlan1, #pricingPlan3 {
+		margin-top: -105px;
+	}
+	
+	#pricingPlan2 {
+		margin-top: -132px;
+	}
+
+	.pricingPlansTitle h3 {
+		font-size: 34px;
+	}
+	
+	.pricingPlansFoot .dollar {
+		font-size: 30.12px;
+	}
+	
+	.pricingPlansFoot .number {
+		font-size: 58.23px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.pricingPlansTitle h3 {
+		word-break: normal;
+	}
+	
+	#wheel {
+		top: 89%;
+		width: 88%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#pricingPlan1, #pricingPlan3 {
+		margin-top: -115px;
+	}
+	
+	#pricingPlan2 {
+		margin-top: -145px;
+	}
+
+	.pricingPlansTitle h3 {
+		font-size: 40px;
+	}
+	
+	.pricingPlansTitle p {
+		font-size: 20px;
+	}
+	
+	.pricingPlansFoot .dollar {
+		font-size: 32.12px;
+	}
+	
+	.pricingPlansFoot .number {
+		font-size: 64.23px;
+	}
+}
+
+/****   FIN MEDIA QUERIES    ****/
